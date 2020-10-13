@@ -13,6 +13,6 @@ function gues_again {
 		echo "Gues again, how many files are in the current directory?"
 		read gues
 	done
-	echo "Correct you guessed $gues and thats the current number of files in the directory."
 }
 gues_again
+echo "Correct you guessed $gues and thats the current number of files in the directory."
